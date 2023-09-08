@@ -157,6 +157,21 @@ memoization : component is renderedonly if there is a state or prop chnage
 forward ref
 
 
+class component life cycle
+
+
+
+--> shouldComponentUpdate
+   should we dontinue upsting ir not will decided //ment  for optimization
+
+PureComponnet already implements should component update
+
+component did update --> dont update state here to avoing l=infinite loop, we can do condional update
+
+componenwillUnmount -> un resgiester listener , in validate timeres reset stuff will go here
+
+
+
 
 
 
