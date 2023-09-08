@@ -172,6 +172,39 @@ componenwillUnmount -> un resgiester listener , in validate timeres reset stuff 
 
 
 
+-- code splitting
+
+spilt the bundle js and load them when needed 
+--> need to tell bundler to do that ...
+
+
+static importwill be in sample import file
+dynamic import will load them in different budle files // 
+
+
+for components we have react.lazy method
+, when we do lazy we need to use Suspense in jsx code
+
+
+jest build over jasmine is common UI framewrokf testing tool
+
+testing tools for react react-test-rendererd, enzyme,tetsing-library/react
+
+
+JEST -> integrated with create react app, build on top of jasmine/mocha
+
+
+_test_/*.js  -> keep track of this folder for testing
+
+or 
+
+_spec.js, _test.js will be considered for testing
+
+
+it or deare main to implement testing
+
+
+
 
 
 
