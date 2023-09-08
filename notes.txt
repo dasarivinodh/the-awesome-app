@@ -1,0 +1,169 @@
+we can use tsc <filename>
+
+or we can use tsconfig.json for larger files compilation at one time
+
+tsc -p .
+
+here dot means curent folder
+
+in tsc config we can further customize to selecct the speccific folders to build
+
+tsc -p . --watch
+
+watch mode automatically triggers build whne there is a file change
+
+there is no run time for type script
+javascript is having run time we can run using multiple ways using nodes or react or web browser
+
+
+
+
+tool chain : there are multipe to configura and create a rect app one such tool is create-react-app
+
+create react app for ssingle page application
+nextjs -> for ceatng multipage applications and SPA,it also gives ability for serer side and client sidde rendering
+
+create react project :
+
+npx create-react-app <name of app>?
+
+npx create-react-app <name of app> --template typescript
+
+npx create-react-app the-awesome-app --template typescript
+
+
+
+
+
+
+
+
+
+2 types of components , calss and fucntioanla
+
+
+set state method is asycnhronous so use call back to do operations after state is updated 
+
+
+event handler should defined as arro fucntion to avoid this key workd to be undefined
+
+
+react developer tools chrome plugin -> 
+
+
+
+
+react hooks version 16.8
+
+
+reasons : state and life cycle hooks not avaialble in functional based as this are available in only in class components
+
+
+why functionla components -> they can be higly optimized , since no one using bcz of lack of facilities 16.8 inroduced hooks to add
+state and life cycle in fucntiona; compaomens
+
+
+
+state hook
+
+effedct hooks
+
+context hoopks
+
+
+
+// function name should be camel case
+
+
+use state hooks to use stat operation in function componenet
+
+
+destructuring in js
+
+
+3 stages of component life scycle
+
+mount > update > unmonunt
+
+
+mount  -> when its used in UI 
+update -> unser interact with compinent
+unmount -> removed from UI /DOM
+
+
+
+
+
+
+redux is refreshed or lost the values once you restart or refresh browser
+
+
+
+
+reduxpersists-- willaloowuse to persist the data
+
+
+redux middle ware  is help ful for logging the actioans before reaching the reducer , and to do async operations
+
+
+
+reducer cannto call asynch operation(like api call or soemthing else) so in this case middle ware is hep ful
+
+
+thunk  and saga are library for async operations in redux
+
+Action Creators : functions that create a ction 
+
+
+
+
+
+
+reacy context
+
+
+available in 16.3
+
+low level api define data fow , good for read only
+
+
+pattern react contect _use reducer(hook ) => which mimics redux data flow
+
+
+
+RXJs
+
+
+Observalble -> what can be observerd (data held here)
+
+observers -> observes the data (can have multiple observers)
+
+
+
+operators - when data is published to do some operation before reching observers 
+
+threre are type of observables 
+
+subject,behvaiur subject, replay subject
+
+
+custome hooks : using existing hook  modfiying it based on that top
+existing hook like usestate,useeffect
+
+
+memoization : component is renderedonly if there is a state or prop chnage 
+ 
+
+forward ref
+
+
+
+
+
+
+
+
+
+
+
+
